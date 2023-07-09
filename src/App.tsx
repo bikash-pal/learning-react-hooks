@@ -1,7 +1,12 @@
 import "./App.css";
+import HookCounter from "./Components/HookCounter";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <HookCounter />
+    </>
+  );
 }
 
 export default App;
